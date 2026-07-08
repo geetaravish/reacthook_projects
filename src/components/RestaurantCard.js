@@ -8,6 +8,7 @@ const RestaurantCard = ({ resData }) => {
       <p>Rating: {resData.info.avgRating}</p>
       <p>Delivery Time: {resData.info.deliveryTime} minutes</p>
     </div>
+    
   );
 };
 
