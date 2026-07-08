@@ -8,9 +8,9 @@ import About from './About';
 const App = () => {
     return (
         <div>
+            <About/>
             <h1><Header /></h1>
             <p><Body /></p>
-            <p><About /></p>
         </div>
     );
 };

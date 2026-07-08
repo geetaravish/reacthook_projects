@@ -1,7 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Button from 'material-ui-storybook-project/src/components/Button';
 
-export const About = () => {
+const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div>
+      <h1>About Page</h1>
+      <Button variant="contained" color="primary">
+        Primary Button
+      </Button>
+    </div>
+  );
+};
+
+export default About;
