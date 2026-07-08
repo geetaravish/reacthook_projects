@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+  flex-direction: column;            /* Places items left-to-right */
+  justify-content: flex-start;    /* Left-aligns the columns */
+}
+
+.container > div {
+    flex: 1;                        /* Forces columns to share space equally */
+  }
