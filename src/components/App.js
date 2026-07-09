@@ -3,7 +3,7 @@ import React from 'react';
 // import {createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
 import Header from './Header';
 import Body from './Body';
-import About from './About';
+import About from './About.js';
 
 const App = () => {
     return (

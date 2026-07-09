@@ -9,9 +9,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1"
+     "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-scripts": "^5.0.1",
+    "storybook-material-ui-project": "file:../storybook-material-ui-project"
   },
   "eslintConfig": {
     "extends": [
@@ -31,6 +32,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.29.7",
     "@babel/core": "^7.29.7",
     "@babel/preset-env": "^7.29.7",
     "@babel/preset-react": "^7.29.7",

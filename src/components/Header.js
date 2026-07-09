@@ -1,6 +1,6 @@
 const Header = (()=> {
     return (
-        <div className="header">My Kitchen</div>
+        <div className="header">My Kitchen - React Hooks(Search, Sort, Filter)</div>
     )
 });
 
