@@ -45,3 +45,8 @@ img {
 .container > div {
     flex: 1;                        /* Forces columns to share space equally */
   }
+
+  .nav-link {
+    padding: 5px 10px;
+    text-decoration-color: white;
+  }
